@@ -15,8 +15,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
-  <script type="module" crossorigin src="./assets/index-o0iMHykM.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-6CJKecVJ.css">
+  <script type="module" crossorigin src="./assets/index-CL_G4OYv.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BbYVXzN6.css">
 </head>
 <body>
     <header class="header">
@@ -24,33 +24,13 @@
     </header>
     <main>
         <article class="page__attendance js-on">
-            <div class="time">
+            <div class="time" style="display: none;">
                 <div class="time__text"><span class="time__name"></span><span class="time__day"></span></div>
                 <time class="time__hhmm"><span class="time__hhmm--hh"></span><span class="time__hhmm--colon">:</span><span class="time__hhmm--mm"></span><span class="time__hhmm--ss"></span></time>
             </div>
-            <section class="attendance box">
-                <h2>勤怠入力</h2>
-                <div class="attendance__buttons">
-                    <button type="button" class="attendance__button attendance__button--begin">出勤</button>
-                    <button type="button" class="attendance__button attendance__button--finish" disabled="disabled">退勤</button>
-                </div>
-                <div class="attendance__result">
-                    <label class="attendance__resultCaseWrap" for="attendance__result--case">
-                        <span>事件対応数</span>
-                        <button type="button" class="attendance__result--caseMinus">🔽</button>
-                        <input type="number" id="attendance__result--case" class="attendance__result--case" step="1" min="0" value="0">
-                        <button type="button" class="attendance__result--casePlus">🔼</button>
-                    </label>
-                    <label class="attendance__resultStartWrap">
-                        <span>出勤時間</span>
-                        <input type="datetime-local" class="attendance__result--start" value="">
-                    </label>
-                    <label class="attendance__resultFinishWrap">
-                        <span>退勤時間</span>
-                        <input type="datetime-local" class="attendance__result--finish" value="">
-                    </label>
-                </div>
-                <div class="attendance__sendWrap"></div>
+            <section class="box">
+                <h2>URLが変更になりました</h2>
+                <p><a href="https://bee22be.github.io/vcrp-app/">https://bee22be.github.io/vcrp-app/</a>にアクセスしてください。<br>使用方法がわからなければ該当Discordの説明を読んでください。</p>
             </section>
             <section class="information box">
                 <h2 class="information__title">お知らせ</h2>
@@ -134,7 +114,7 @@
             </section>
         </article>
     </main>
-    <footer class="footer">
+    <footer class="footer" style="display: none;">
         <menu class="menu">
             <ul class="menu__list">
                 <li class="menu__item menu__item--home js-on"><a>ホーム</a></li>
@@ -147,7 +127,7 @@
     <!-- <dialog open>aaa</dialog> -->
     <aside class="starting">
         <form class="startingWrap">
-            <p class="starting__disc">このツールは関係者以外は使用しないでください。</p>
+            <p class="starting__disc">このツールは関係者以外は使用しないでください。nameは名字と名前の間にスペース入れないのを推奨します。</p>
             <label class="input">
                 <span>name</span>
                 <input type="text" class="starting__input starting__input--text" required>
